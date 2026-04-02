@@ -1,0 +1,78 @@
+@media screen and (max-width: 1200px) {
+  #desktop-nav {
+    display: none;
+  }
+
+  #hamburger-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 1.5rem;
+  }
+
+  section {
+    margin: 0 7%;
+    min-height: auto;
+  }
+
+  #profile {
+    flex-direction: column;
+    height: auto;
+    margin-bottom: 3rem;
+  }
+
+  .section__pic-container {
+    width: 260px;
+    height: 260px;
+    margin-bottom: 1.5rem;
+  }
+
+  .section-container {
+    flex-direction: column;
+  }
+
+  .about-containers {
+    flex-direction: column;
+  }
+
+  .life-photo {
+    flex-basis: 100%;
+  }
+
+  #contact {
+    height: auto;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  section {
+    margin: 0 1.5rem;
+  }
+
+  .nav-links {
+    font-size: 0.95rem;
+  }
+
+  .title {
+    font-size: 2rem;
+  }
+
+  .section__text__p2 {
+    font-size: 1.15rem;
+  }
+
+  .section__pic-container {
+    width: 220px;
+    height: 220px;
+  }
+
+  .contact-info-upper-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  footer {
+    height: auto;
+  }
+}
+
