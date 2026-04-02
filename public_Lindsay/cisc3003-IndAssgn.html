@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CISC3003 Portfolio - Lei Man Lam (dc325837)</title>
+    <link rel="stylesheet" href="cisc3003-IndAssgn-home.css" />
+    <link rel="stylesheet" href="cisc3003-IndAssgn-home-mediaqueries.css" />
+  </head>
+  <body>
+    <div style="padding:10px 20px;background:#0b1220;">
+      <a href="../cisc3003-PairAssgn.html" style="display:inline-block;padding:8px 14px;border-radius:999px;background:#22c55e;color:#052e16;font-weight:700;text-decoration:none;">← Back to Business Site</a>
+    </div>
+    <nav id="desktop-nav">
+      <div class="logo">Lei Man Lam</div>
+      <div>
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <li><a href="cisc3003-IndAssgn-project1.html">Project 1</a></li>
+          <li><a href="cisc3003-IndAssgn-project2.html">Project 2</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <nav id="hamburger-nav">
+      <div class="logo">Lei Man Lam</div>
+      <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <ul class="menu-links">
+          <li><a href="#about" onclick="toggleMenu()">About</a></li>
+          <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+          <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+          <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+          <li>
+            <a href="cisc3003-IndAssgn-project1.html" onclick="toggleMenu()"
+              >Project 1</a
+            >
+          </li>
+          <li>
+            <a href="cisc3003-IndAssgn-project2.html" onclick="toggleMenu()"
+              >Project 2</a
+            >
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <section id="profile">
+      <div class="section__pic-container">
+          <img
+            src="../images/lindsay-profile.png"
+            alt="Lindsay profile picture"
+          />
+      </div>
+      <div class="section__text">
+        <p class="section__text__p1">Hello, I'm</p>
+        <h1 class="title">Lei Man Lam</h1>
+        <p class="section__text__p2">CISC3003 Student (dc325837)</p>
+        <div class="btn-container">
+          <button
+            class="btn btn-color-1"
+            onclick="document.getElementById('contact').scrollIntoView({ behavior: 'smooth' });"
+          >
+            Contact Me
+          </button>
+          <button
+            class="btn btn-color-2"
+            onclick="document.getElementById('projects').scrollIntoView({ behavior: 'smooth' });"
+          >
+            View Projects
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <section id="about">
+      <p class="section__text__p1">Get To Know More</p>
+      <h1 class="title">About Me</h1>
+      <div class="section-container">
+        <div class="section__pic-container">
+          <img
+            src="../images/lindsay-profile.png"
+            alt="Lindsay profile picture"
+            class="about-pic"
+          />
+        </div>
+        <div class="about-details-container">
+          <div class="about-containers">
+            <div class="details-container">
+              <h2>Profile</h2>
+              <p>
+                I am Lei Man Lam (Student ID: dc325837), a student in the
+                CISC3003 Web Programming course. This website is my individual
+                assignment portfolio, designed and implemented based on the
+                course requirements.
+              </p>
+            </div>
+            <div class="details-container">
+              <h2>Interests</h2>
+              <p>
+                I am interested in front-end development, user experience
+                design, and building responsive websites using HTML, CSS, and
+                JavaScript.
+              </p>
+            </div>
+          </div>
+          <div class="text-container">
+            <p>
+              Through this assignment, I aim to strengthen my understanding of
+              modern web layout techniques, responsive design, and multi-page
+              portfolio structures. The content presented here is based on my
+              own academic background, skills, and learning goals.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="experience">
+      <p class="section__text__p1">Explore My</p>
+      <h1 class="title">Experience</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container">
+            <h2 class="experience-sub-title">Technical Skills</h2>
+            <div class="article-container">
+              <article>
+                <div>
+                  <h3>HTML</h3>
+                  <p>Coursework & Practice</p>
+                </div>
+              </article>
+              <article>
+                <div>
+                  <h3>CSS</h3>
+                  <p>Responsive Layouts</p>
+                </div>
+              </article>
+              <article>
+                <div>
+                  <h3>JavaScript</h3>
+                  <p>Basic Interactions</p>
+                </div>
+              </article>
+            </div>
+          </div>
+          <div class="details-container">
+            <h2 class="experience-sub-title">Course Experience</h2>
+            <div class="article-container">
+              <article>
+                <div>
+                  <h3>CISC3003 Labs</h3>
+                  <p>Practice with HTML/CSS</p>
+                </div>
+              </article>
+              <article>
+                <div>
+                  <h3>Group Projects</h3>
+                  <p>Collaboration & Git</p>
+                </div>
+              </article>
+              <article>
+                <div>
+                  <h3>Self-Learning</h3>
+                  <p>Online Tutorials</p>
+                </div>
+              </article>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="life-photos">
+      <p class="section__text__p1">My Daily Moments</p>
+      <h1 class="title">Life Photos</h1>
+      <div class="article-container life-photos-container">
+        <article class="life-photo">
+          <img src="../images/life-photo-01.jpg" alt="Life photo 01">
+        </article>
+        <article class="life-photo">
+          <img src="../images/life-photo-02.jpg" alt="Life photo 02">
+        </article>
+        <article class="life-photo">
+          <img src="../images/life-photo-03.jpg" alt="Life photo 03">
+        </article>
+        <article class="life-photo">
+          <img src="../images/life-photo-04.jpg" alt="Life photo 04">
+        </article>
+      </div>
+    </section>
+
+    <section id="projects">
+      <p class="section__text__p1">Browse My Recent</p>
+      <h1 class="title">Projects</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container color-container">
+            <div class="article-container">
+              <div class="project-card">
+                <h2 class="experience-sub-title project-title">
+                  Project 1: Responsive Portfolio
+                </h2>
+                <p>
+                  A multi-section one-page style portfolio homepage that
+                  showcases my profile, experience, and contact information. It
+                  is implemented using semantic HTML5 and modern CSS.
+                </p>
+              </div>
+            </div>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='cisc3003-IndAssgn-project1.html'"
+              >
+                View Details
+              </button>
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <div class="project-card">
+                <h2 class="experience-sub-title project-title">
+                  Project 2: Web Showcase Page
+                </h2>
+                <p>
+                  A project demo page that highlights selected web programming
+                  exercises, including layout practice and component design
+                  based on the course materials.
+                </p>
+              </div>
+            </div>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='cisc3003-IndAssgn-project2.html'"
+              >
+                View Details
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact">
+      <p class="section__text__p1">Get in Touch</p>
+      <h1 class="title">Contact Me</h1>
+      <div class="contact-info-upper-container">
+        <div class="contact-info-container">
+          <p>
+            Email:
+            <a href="mailto:dc325837@um.edu.mo">dc325837@um.edu.mo</a>
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <nav>
+        <div class="nav-links-container">
+          <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="cisc3003-IndAssgn-project1.html">Project 1</a></li>
+            <li><a href="cisc3003-IndAssgn-project2.html">Project 2</a></li>
+          </ul>
+        </div>
+      </nav>
+      <p>
+        CISC3003 Web Programming - 2025: Student ID dc325837, Student Name Lei
+        Man Lam
+      </p>
+    </footer>
+
+    <script>
+      function toggleMenu() {
+        var menu = document.querySelector(".menu-links");
+        var icon = document.querySelector(".hamburger-icon");
+        menu.classList.toggle("open");
+        icon.classList.toggle("open");
+      }
+    </script>
+  <script src="../js/photo-zoom.js"></script>
+  </body>
+</html>
+
