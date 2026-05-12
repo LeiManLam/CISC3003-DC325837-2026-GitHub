@@ -1,0 +1,37 @@
+@import url("styles.css");
+
+.dashboard-grid {
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  margin-top: 1rem;
+}
+
+.tile {
+  background: #f3f0ff;
+  border: 1px solid #d0bfff;
+  border-radius: 10px;
+  padding: 1rem;
+}
+
+.tile h3 {
+  margin: 0 0 0.35rem;
+  font-size: 0.95rem;
+}
+
+.tile p {
+  margin: 0;
+  font-size: 0.9rem;
+}
+
+.welcome {
+  font-size: 1.1rem;
+}
+
+.meta {
+  color: #495057;
+}
+
+.tile a {
+  color: var(--accent);
+}
